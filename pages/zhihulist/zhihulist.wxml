@@ -1,0 +1,6 @@
+ <view class="container storoy-list">
+ <view  wx:for="{{stories}}" wx:for-item="storoy" wx:for-index="i" wx:key="*this">
+    <view class="storoy-item">{{i + 1}},{{storoy.title}} </view>
+    <image mode="aspectFill"   src="https://puui.qpic.cn/tv/0/6422378_460358/0" />
+  </view>
+</view>

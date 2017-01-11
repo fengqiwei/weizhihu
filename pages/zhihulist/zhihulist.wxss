@@ -1,0 +1,8 @@
+.storoy-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.storoy-item {
+  margin: 10rpx;
+}
